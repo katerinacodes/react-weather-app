@@ -8,6 +8,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+   
+    <p>
+         <a href="https://github.com/katerinacodes/react-weather-app"  target="_blank">Open source code</a>, by Katerina Tsalidi 
+       </p>
+      
   </React.StrictMode>
 );
 

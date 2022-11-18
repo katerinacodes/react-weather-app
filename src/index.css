@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 
 }
 
@@ -13,12 +14,9 @@ code {
     monospace;
 }
 
-#root{
-  background-color: lavenderblush;
-  width: 50px 50px;
-  margin: 25px 400px ;
-height: 300px;
-  color:darksalmon;
-  border:2px solid darksalmon;
-  border-radius: 30px;
+p{color: darksalmon;
+  position: relative;
+  left: 430px;
 }
+a{text-decoration: none;
+color:rgb(200, 79, 39)}

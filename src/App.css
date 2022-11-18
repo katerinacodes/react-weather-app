@@ -1,9 +1,16 @@
-.div {
+.display {
   font-family: sans-serif;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
   margin-top: 30px;
+  background-color: lavenderblush;
+  width: 50px 50px;
+  margin: 25px 400px 0px;
+  height: 300px;
+  color:darksalmon;
+  border:2px solid darksalmon;
+  border-radius: 30px;
   
 }
 
@@ -17,11 +24,15 @@ input {
   border-radius: 30px;
 }
 .text {
-position:relative;
-left: 100px;
+  
+  text-align:center;
   font-weight: 700;
-  font-size: larger;
+  font-size: 20px;
 }
+
+ul{
+  padding-left:0px;
+  list-style:none;}
 
 .search{background-color: darksalmon;
 color: white;
@@ -35,3 +46,4 @@ margin-left:10px;
 border:none;
   transition: all 0.1s ease-out;
 }
+

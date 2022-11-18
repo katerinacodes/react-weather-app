@@ -29,16 +29,21 @@ function App() {
     }
   
     return (
-      <div>
+      <div className="display">
         <div className="div">
           <div>Weather App</div>
           <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Type a City" onChange={updateCity} />
             <input className="search" type="submit" value="Search" />
           </form>
+          <span className="text">{text}</span>
         </div>
-        <span className="text">{text}</span>
-      </div>
+       
+       
+      
+    
+
+       </div>
     );
   }
 
